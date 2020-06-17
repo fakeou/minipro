@@ -1,4 +1,7 @@
 <!--pages/home/home.wxml-->
-<text class="title">hello world</text>
-<button size="mini">按钮</button>
-
+<!-- 1.小程序的数据绑定:{{}} mustache语法 -->
+<view>李淑敏最可爱了</view>
+<button 
+ open-type="getUserInfo"
+ bindgetuserinfo="handelegetuserInfo" size="mini">授予权限</button>
+ <text selectable="{{false}}">666</text>
